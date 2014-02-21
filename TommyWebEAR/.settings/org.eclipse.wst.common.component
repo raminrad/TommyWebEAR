@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="TommyWebEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/TommyDomain/TommyDomain">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="TommyServiceWeb.war" deploy-path="/" handle="module:/resource/TommyServiceWeb/TommyServiceWeb">
+            <dependent-object>WebModule_1386255190274</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
